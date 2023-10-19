@@ -11,4 +11,4 @@ else{
   $resultado = "Resultado igual a Zero!";
 }
 
-echo $resultado;
+echo $resultado; // Como a variavel $valor esta com o numero -1, a variavel $resultado nesse caso, vai exibir "Valor Negativo"
