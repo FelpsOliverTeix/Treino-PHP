@@ -1,0 +1,8 @@
+/*Crie um algoritmo que solicite um numero,e exiba a tabuada de 0 a 10 de acordo com o numero solicitado.*/
+<?php
+$numero = isset($_POST["numero"])? intval($_POST["numero"]):1; // O metodo POST foi utilizado para acostumar como processo de envio de dados via formulario, quando o PHP for utilizado junto ao HTML.
+echo "Tabuada do $numero:";
+for($i=0;$i <=10; $i++){
+  $resultado= $numero * $i;
+  echo "$numero X $i = $resultado";
+}
