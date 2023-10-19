@@ -1,0 +1,14 @@
+$valor = -1;
+$resultado = "";
+
+if( $valor < 0){
+  $resultado = "Valor Negativo!";
+}
+elseif($valor > 0){
+  $resultado = "Valor Positivo!";
+}
+else{
+  $resultado = "Resultado igual a Zero!";
+}
+
+echo $resultado;
