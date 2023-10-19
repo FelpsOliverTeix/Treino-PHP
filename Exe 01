@@ -1,3 +1,7 @@
+/*Crie um algoritmo que receba um numero e verifique se esse valor é positivo, negativo, ou igual a zero.
+A saida deve ser: "Valor Positivo", "Valor Negativo", "Igual a Zero".*/
+
+<?php
 $valor = -1;
 $resultado = "";
 
@@ -12,3 +16,4 @@ else{
 }
 
 echo $resultado; // Como a variavel $valor esta com o numero -1, a variavel $resultado nesse caso, vai exibir "Valor Negativo"
+?>
